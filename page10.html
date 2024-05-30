@@ -6,6 +6,75 @@
     <title>Website Trying.1</title>
 </head>
 <body>
-    
+    <h3>I will learn how to use form tags on this page</h3>
+    <hr>
+
+    <form>
+        <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Buzz" required>
+        </div>
+            <br>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Lightyear" required>
+        </div>
+            <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="buzzlightyear@gmail.com">
+        </div>
+            <br>
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="password" name="password" maxlength="12" required>
+        </div>
+            <br>
+        <div>
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+            <br>
+        <div>
+            <label for="quantity">Quantity:</label>
+            <input type="quantity" id="quantity" name="quantity" min="0" max="99" value="1">
+        </div>
+            <br>
+        <div>
+            <label for="title">Title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr.">
+
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." name="title" value="PhD.">
+        </div>
+            <br>
+        <div>
+            <label for="payment">Payment:</label>
+            <select>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="giftcard">Giftcard</option>
+            </select>
+        </div>
+            <br>
+        <div>
+            <label for="I got it!">I got it!</label>
+            <input type="checkbox" id="I got it!" name="I got it!">
+        </div>
+            <br>
+        <div>
+            <input type="reset">
+        </div>
+            <br>
+        <div>
+            <input type="submit">
+        </div>
+            <br>
+    </form>
 </body>
 </html>
